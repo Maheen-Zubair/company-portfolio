@@ -1,0 +1,68 @@
+.bd_image{
+    height:180px ;
+    background-color: aqua;
+    background-image: url(about-sec-imgs/about_bg.jpeg);
+    background-size: cover;
+}
+.about_mainContainer{
+    display: flex;
+    flex-direction: column;
+    
+}
+.about_heading{
+    padding-top: 2%;
+text-align: center;
+font-size: 17px;
+font-family: sans-serif;
+font-weight: 600
+
+}
+.about_para{
+    padding-top: 2%;
+    font-size: 0.4rem;
+    margin-right: 50%;
+    padding-left: 3%;
+    display: flex;
+    flex-direction: column;
+    gap:4px
+}
+.about_button{
+    margin-top: 7px;
+    margin-left:3% ;
+    padding: 1% 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 9px;
+   border:none;
+   border-bottom: 3px solid   #d8a115;
+   font-weight: 550;
+    background-color: #febd19;}
+
+    .about_button:hover{
+            background-color: #d29a0c;
+            border-bottom: 3px solid   #a37a12;
+           }
+
+    @media(min-width:623px){
+        .bd_image{
+            height:240px ;
+        }
+      
+        .about_heading{
+            padding-top: 3%;
+        font-size:20px;
+        
+        
+        }
+        .about_para{
+            padding-top: 2%;
+            font-size: 9.5px;
+            margin-right: 53%;
+            padding-left: 3%;
+            gap:6px
+        }
+        .about_button{
+         
+            font-size: 10px;
+           }
+    }

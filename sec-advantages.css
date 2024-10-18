@@ -1,0 +1,262 @@
+* {
+    padding: 0%;
+    margin: 0%;
+  }
+  .advantages {
+    height: 180px;
+    background-color: #ffffff;
+    text-align: center;
+    padding-top: 5px;
+    font-family: sans-serif;
+  }
+  span {
+    color: #7fb134;
+  }
+  .advantageHead {
+    font-size: 100%;
+  }
+  .advantagePara {
+    padding-left: 40px;
+    padding-right: 40px;
+
+    font-size: 60%;
+    color: #636060;
+    margin-bottom: 15px;
+  }
+  
+  /*bulb */
+  .advantages-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 26px;
+  }
+  .bulb {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+ }
+  .bulb-img {
+    background-image: url(advantages-sec-imgs/bulb.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-bottom: 7px;
+
+  }
+  
+  .bulb-head {
+    font-size: 9px;
+    margin-bottom: 4%;
+
+  
+  }
+  .bulb-para { 
+    font-size: 35%;
+  }
+  
+  /* clock */
+  .clock {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .clock-img {
+    background-image: url(advantages-sec-imgs/clock.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-bottom: 7px;
+  
+  }
+  
+  .clock-head {
+    font-size: 9px;
+    margin-bottom: 4%;
+  
+  }
+  .clock-para {
+    font-size: 35%;
+  }
+  
+  .thumb {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .thumb-img {
+    background-image: url(advantages-sec-imgs/client.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-bottom: 7px;
+  
+  }
+  
+  .thumb-head {
+    font-size: 9px;
+    margin-bottom: 4%;
+  
+  }
+  .thumb-para {
+    font-size: 35%;
+  }
+  
+  .client {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .client-img {
+    background-image: url(advantages-sec-imgs/thumb.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-bottom: 7px;
+  
+  }
+  
+  .client-head {
+    font-size: 9px;
+    margin-bottom: 4%;
+  
+  }
+  .client-para {
+    font-size: 35%;
+  }
+  
+  .support {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .support-img {
+    background-image: url(advantages-sec-imgs/message.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-bottom: 7px;
+  
+  }
+  
+  .support-head {
+    font-size: 9px;
+  margin-bottom: 4%;
+  
+  }
+  .support-para {
+    font-size: 35%;
+  }
+ 
+  @media(min-width:623px){
+    .advantages {
+      height: 200px;
+      padding-top: 7px;
+    }
+   
+    .advantageHead {
+      font-size: 22px;
+    }
+    .advantagePara {
+      font-size: 70%;
+    }
+
+    .bulb-img {
+      height: 70px;
+      width: 70px;
+      margin-bottom: 8px;
+  
+    }
+    
+    .bulb-head {
+      font-size: 10px;
+
+    }
+    .bulb-para { 
+      font-size: 39%;
+    }
+    
+ 
+    .clock-img {
+      height: 70px;
+      width: 70px;
+      margin-bottom: 8px;
+    
+    }
+    
+    .clock-head {
+      font-size: 10px;
+    }
+    .clock-para {
+      font-size: 39%;
+    }
+    .thumb-img {
+      height: 70px;
+      width: 70px;
+      margin-bottom: 8px;
+    
+    }
+    
+    .thumb-head {
+      font-size: 10px;
+
+    
+    }
+    .thumb-para {
+      font-size: 39%;
+    }
+    
+
+    .client-img {
+      height: 70px;
+      width: 70px;
+      margin-bottom: 8px;
+    
+    }
+    
+    .client-head {
+      font-size: 10px;
+
+    
+    }
+    .client-para {
+      font-size: 39%;
+    }
+    
+
+    .support-img {
+      height: 70px;
+      width: 70px;
+      margin-bottom: 8px;
+    }
+    
+    .support-head {
+      font-size: 10px;    
+    }
+    .support-para {
+      font-size: 39%;
+    }
+   
+  }

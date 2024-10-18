@@ -1,0 +1,150 @@
+.services_mainContainer {
+    height: 180px;
+    background-color: #ffffff;
+    text-align: center;
+    padding-top: 5px;
+    font-family: sans-serif;
+  }
+ 
+  .services_heading {
+    font-size: 100%;
+  }
+  .services_Para {
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 60%;
+    color: #636060;
+    margin-bottom: 25px;
+  }
+  
+ /* services container */
+
+ .services_container{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+gap: 20px;
+ }
+ .webDesign {
+   padding-top: 2%;
+    width: 30%;
+    height: 80px;
+    font-size: 50%;
+    background-color: #f1f2f0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4%;
+
+ }
+ .graphicDesign{
+   padding-top: 2%;
+   width: 30%;
+   height: 80px;
+   font-size: 50%;
+   background-color: #f1f2f0;
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   border-radius: 4%;
+
+ }
+ .branding{
+   width: 30%;
+   height: 80px;
+   padding-top: 2%;
+   font-size: 50%;
+   background-color: #f1f2f0;
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   border-radius: 4%;
+
+ }
+ .marketing{
+   padding-top: 2%;
+   width: 30%;
+    height: 80px;
+    font-size: 50%;
+    background-color: #f1f2f0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4%;
+ }
+ .star{
+    height: 40px;
+    width:30px;
+    position:absolute;
+    top: -20px;
+    border-radius: 50%;
+    background-image: url(services-sec-imgs/starww.png);
+    background-size: cover;
+ }
+ .services-link{
+   margin-top: 6%;
+   color: #7fb134;
+   font-weight: 700;
+   margin-bottom: 4%;
+ }
+ .services-container-para{
+   color: #636060;
+ }
+ @media(min-width:623px){
+  .services_mainContainer {
+    height: 200px;
+    padding-top: 7px;
+    padding-bottom: 10px;
+  }
+ 
+  .services_heading {
+    font-size: 22px;
+  }
+  .services_Para {
+    font-size: 80%;
+    margin-bottom: 30px;
+  }
+  
+
+ .services_container{
+gap: 23px;
+
+ }
+ .webDesign {
+
+    height: 100px;
+    font-size: 60%;
+
+ }
+ .graphicDesign{
+  height: 100px;
+  font-size: 60%;
+
+ }
+ .branding{
+  height: 100px;
+  font-size: 60%;
+
+ }
+ .marketing{
+  height: 100px;
+  font-size: 60%;
+ }
+ .star{
+    height: 45px;
+    width:35px;
+
+ }
+ 
+ .services-container-para{
+   margin-top: 3px;
+ }
+ }

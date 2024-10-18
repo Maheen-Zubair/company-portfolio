@@ -1,0 +1,118 @@
+.skills-mainContainer {
+    height: 170px;
+    background-color: #ffffff;
+    text-align: center;
+    padding-top: 10px;
+    font-family: sans-serif;
+
+  }
+ 
+  .skills-head {
+    margin-top: 10px;
+    font-size: 100%;
+  }
+  .skills-para {
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 60%;
+    color: #636060;
+    margin-bottom: 15px;
+  }
+
+  .loader-bars{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+    margin-top: 18px;
+  }
+  .loader-bar1{
+    border: 8px solid #daded5 ;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border-left: 8px solid #f4a00e ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .loader-bar2{
+    border: 8px solid #daded5 ;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border-left: 10px solid #ec312a ;
+    border-bottom: 8px solid #ec312a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .loader-bar3{
+    border: 8px solid #daded5 ;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border-left: 10px solid #8fc441 ;
+    border-bottom: 8px solid #8fc441 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .loader-bar4{
+    border: 8px solid #daded5;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border-left: 10px solid black ;
+    border-bottom: 10px solid black;
+    border-top: 8px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  @media(min-width:623px){
+    .skills-mainContainer {
+      height: 200px;
+  
+      padding-top: 10px;
+      
+  
+    }
+   
+    .skills-head {
+      font-size: 20px;
+    }
+    .skills-para {
+ 
+      font-size: 70%;
+      margin-bottom: 20px;
+    }
+  
+    .loader-bars{
+      
+      gap: 100px;
+      margin-top: 18px;
+    }
+    .loader-bar1{
+      height: 80px;
+      width: 80px;
+    
+    }
+    .loader-bar2{
+      height: 80px;
+      width: 80px;
+    }
+    .loader-bar3{
+      height: 80px;
+      width: 80px;
+    }
+    .loader-bar4{
+      height: 80px;
+      width: 80px;
+  
+    }
+    
+  }

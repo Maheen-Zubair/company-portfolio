@@ -1,0 +1,211 @@
+* {
+  scroll-behavior: smooth;
+}
+header{
+  background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px 0px 10px;
+}
+
+.one{
+  display: flex;
+  gap: 5px;
+}
+
+
+ .header1{
+    height: 20px;
+    background-color: #212121;
+   display: flex;
+   flex-direction: row;
+   padding-bottom: 2px;
+   
+  }
+  .top{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    font-size: 8%;
+    background-color: #3e3e3c;
+    height: 20%;
+    width: 20%;
+    border-radius: 50%;
+  }              
+  .topCircle{
+    padding:5px;
+  text-decoration: none;
+  color: #ffffff;
+  text-align: center;
+  }
+   .phone{ 
+     width: 800%;
+    display: flex;
+    justify-content: end;
+
+  }
+  .fa{
+    color:#7fb134;
+  }
+  .phone1{
+    color: #ffffff;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 50%;
+  text-decoration: none;
+ 
+  
+  }
+  .phone2{
+  color: #ffffff;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 50%;
+  text-decoration: none;
+  }
+  .call-me{
+  border-radius: 2px;
+  font-size: 60%;
+  height: 30%;
+  border: none;
+  border-bottom: 2px solid #61862a;
+  background-color:#7fb134;
+  color: #212121;
+  font-family: monospace;
+  }
+  .call-me:hover{
+    border-bottom: 2px solid #537c16;
+    background-color:#6b952c; 
+  }
+  .header2{
+    height: 25px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .container{
+   
+      justify-content: space-between;
+      display: flex;
+      gap: 10px;
+      color: #212121;
+      font-size: 4%;
+      font-family: sans-serif;
+      
+  }
+  .logo{
+    background-image: url(logo/logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;  
+     height: 25px;
+   width: 50px;
+  }
+  .text{
+    text-decoration: none;
+    color: #212121;
+  }
+  .text:hover{
+    color :#febd19;
+    
+
+  }
+  
+  .expert{
+    height: 170px;
+    background-color: #7fb134;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    
+  } 
+
+  .expertHeading{
+    margin-top: 40px;
+    margin-bottom:5px;
+  font-size: 180%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #ffffff;
+  }
+  
+  
+  .expertPara{
+    font-size: 60%;
+    color: #ffffff;
+  
+  }
+  
+  .readMore{
+    margin-top: 7px;
+    padding: 1% 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 9px;
+   border:none;
+   border-bottom: 3px solid   #d8a115;
+   font-weight: 550;
+    background-color: #febd19;
+  } 
+  .readMore:hover{
+    background-color: #d29a0c;
+    border-bottom: 3px solid   #a37a12;
+
+  }
+  @media(min-width:623px){
+    .header1{
+      height:25px
+    }
+    .header2{
+      height: 30px;
+    }
+    .expert{
+      height: 250px;
+    }
+    .expertHeading{
+      margin-top: 55px;
+      margin-bottom:5px;
+    font-size: 50px;
+    }
+    .expertPara{
+      font-size: 90%;
+    
+    }
+    .readMore{
+      margin-top: 8px;
+      font-size: 12px;
+     border-bottom: 4px solid   #d8a115;
+     font-weight: 550;
+    }
+    .top{
+ 
+      font-size:25px;   
+    } 
+    .phone1{
+         font-size: 70%; 
+    }
+    .phone2{
+    font-size: 70%;
+    }
+    .call-me{
+    font-size: 80%;
+    
+    }
+ 
+    .container{
+   
+      justify-content: space-between;
+      display: flex;
+      gap: 10px;
+      color: #212121;
+      font-size: 9px;
+      font-family: sans-serif;
+      
+  }
+  .logo{ 
+     height: 30px;
+   width: 60px;
+  }
+    }

@@ -1,0 +1,222 @@
+.portfolio_mainContainer {
+    height: 250px;
+    background-color: black;
+    text-align: center;
+    padding-top: 5px;
+    font-family: sans-serif;
+    
+  }
+ 
+  .portfolio_heading {
+    padding-top: 10px;
+    font-size: 100%;
+    color: white;
+    margin-bottom: 4px;
+
+  }
+  .portfolio_Para {
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 60%;
+    color: #938f8f;
+    margin-bottom: 7px;
+  }
+  
+  .header3{
+    height: 15px;
+    background-color:black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .portfolio-header{
+   
+      justify-content: space-between;
+      display: flex;
+      gap: 10px;
+      color: #212121;
+      font-size: 4%;
+      font-family: sans-serif;
+      
+  }
+
+  .portfolio-text{
+    text-decoration: none;
+    color:rgb(197, 194, 194);
+  }
+  .portfolio-text:hover{
+    color:#febd19 ;
+  }
+  .portfolio-subContainer{
+    height: 130px;
+    width: 80%;
+    background-color: aliceblue;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .portfolio-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .portfolio-img1{
+    background-image: url(portfolio-sec-imgs/portfolio-crown.jpeg);
+    filter:grayscale(100%);
+    transition: filter 300ms;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50%;
+    width: 20%;
+  }
+  .portfolio-img2{
+    background-image: url(portfolio-sec-imgs/portfolio-2.jpeg);
+    filter:grayscale(100%);
+    transition: filter 300ms;
+    background-size: cover;
+    height: 50%;
+    width: 20%;
+  }
+  
+  .portfolio-img3{
+    background-image: url(portfolio-sec-imgs/portfolio-3.jpeg);
+    filter:grayscale(100%);
+    transition: filter 300ms;
+    background-size: cover;
+    height: 50%;
+    width: 20%;
+  }
+  .portfolio-img4{
+    background-image: url(portfolio-sec-imgs/portfolio-4.jpeg);
+    filter:grayscale(100%);
+    transition: filter 300ms;
+    background-size: cover;
+    height: 50%;
+    width: 20%;
+  }
+  .portfolio-img5{
+    background-image: url(portfolio-sec-imgs/portfolio-5.jpeg);
+    filter:grayscale(100%);
+    transition: filter 300ms;
+    background-size: cover;
+    height: 50%;
+    width: 20%;
+  }
+  .portfolio-img6{
+    background-image: url(portfolio-sec-imgs/portfolio-6.jpeg);
+    filter:grayscale(100%);
+    transition: filter 300ms;
+    background-size: cover;
+    height: 50%;
+    width: 20%;
+  }
+  .portfolio-img7{
+    background-image: url(portfolio-sec-imgs/portfolio-7.jpeg);
+    filter:grayscale(100%);
+    transition: filter 300ms;
+    background-size: cover;
+    height: 50%;
+    width: 20%;
+  }
+  .portfolio-img8{
+    background-image: url(portfolio-sec-imgs/portfolio-8.jpeg);
+    filter:grayscale(100%);
+    transition: filter 300ms;
+    background-size: cover;
+    height: 50%;
+    width: 20%;
+  }
+  .portfolio-img9{
+    background-image: url(portfolio-sec-imgs/portfolio-9.jpeg);
+    filter:grayscale(100%);
+    transition: filter 300ms;
+    background-size: cover;
+    height: 50%;
+    width: 20%;
+  }
+  .portfolio-img10{
+    background-image: url(portfolio-sec-imgs/portfolio-10.jpeg);
+    filter:grayscale(100%);
+    transition: filter 300ms;
+    background-size: cover;
+    height: 50%;
+    width: 20%;
+  }
+  
+  .portfolio-img1:hover{
+    filter:grayscale(0%)
+  }
+  .portfolio-img2:hover{
+    filter:grayscale(0%)
+  }
+  .portfolio-img3:hover{
+    filter:grayscale(0%)
+  }
+  .portfolio-img4:hover{
+    filter:grayscale(0%)
+  }
+  .portfolio-img5:hover{
+    filter:grayscale(0%)
+  }
+  .portfolio-img6:hover{
+    filter:grayscale(0%)
+  }
+  .portfolio-img7:hover{
+    filter:grayscale(0%)
+  }
+  .portfolio-img8:hover{
+    filter:grayscale(0%)
+  }
+  .portfolio-img9:hover{
+    filter:grayscale(0%)
+  }
+  .portfolio-img10:hover{
+    filter:grayscale(0%)
+  }
+
+  @media(min-width:623px){
+    .portfolio_mainContainer {
+      height: 300px;
+      padding-top: 5px;
+      
+    }
+   
+    .portfolio_heading {
+      padding-top: 10px;
+      font-size: 20px;
+      margin-bottom: 4px;
+  
+    }
+    .portfolio_Para {
+      padding-left: 40px;
+      padding-right: 40px;
+      font-size: 70%;
+      color: #938f8f;
+      margin-bottom: 7px;
+    }
+    
+    .header3{
+      height: 10px;
+    
+    }
+  
+    .portfolio-header{
+        gap: 12x;
+        color: #212121;
+        font-size: 10px;  
+        margin-bottom: 10px;
+        }
+ 
+
+    .portfolio-subContainer{
+      height: 200px;
+      width: 80%;
+  
+    }
+  
+  
+  
+  }

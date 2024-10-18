@@ -1,0 +1,109 @@
+.footer-mainContainer {
+    height: 150px;
+    background-color: #527a17;
+    text-align: center;
+    padding-top: 10px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+  
+  }
+  .footer-subContainer{
+    margin-top: 15px;
+    background-color: #527a17;
+    height: 135px;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    text-align: left;
+  }
+  .container1{
+    background-color: #527a17;
+    width: 25vw;
+    height: 135px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-right: 13px;
+    color: wheat;
+
+    
+}
+  .container2{
+    background-color: #527a17;
+    width: 25vw;
+    height: 135px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding-right: 13px;
+    color: wheat;
+    border-right: 2px solid rgb(173, 162, 139);
+
+    
+  }
+  .container3{
+    background-color: #527a17;
+    width: 25vw;
+    height: 135px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding-right: 13px;
+    color: wheat;
+    padding-left: 10px;
+    border-right: 2px solid rgb(173, 162, 139);
+
+  }
+  .container4{
+    background-color: #527a17;
+    width: 25vw;
+    height: 135px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    padding-left: 13px;
+    color: wheat;
+  }
+  .cont-2{
+    font-size: 6px;
+    color: wheat;
+  }
+  .footer-img{
+    background-image: url(logo/logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+  }
+  
+  .fone{
+    font-size: 10px;
+  }
+  .top{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    font-size: 8%;
+    background-color: #3e3e3c;
+    height: 20%;
+    width: 20%;
+    border-radius: 50%;
+    margin-top: 7px;
+  }              
+  .topCircle{
+    padding:5px;
+  text-decoration: none;
+  color: #ffffff;
+  text-align: center;
+  }
+  .OOone{
+    margin-top: 5px;
+    font-size: 12px;
+
+  }
+  .Oone{
+    font-size: 12px;
+  }
+  
