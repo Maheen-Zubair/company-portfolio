@@ -4,8 +4,6 @@
     text-align: center;
     padding-top: 10px;
     font-family: sans-serif;
-    
-
   }
 
   .contact-head{
@@ -75,4 +73,29 @@
     .location{
       height: 220px;
     }
+  }
+
+  @media(max-width:460px){
+    .contact-mainContainer{
+      height:190px;
+    }
+  
+    .contact-head{
+      font-size: 90%;
+    }
+    .contact-para {
+      font-size: 50%;
+    }
+  
+    .contact-subContainer{
+      height: 10px;
+      gap: 5px;
+    }
+    .contact-phone{
+      font-size: 8px;
+    }
+    .contact-email{
+      font-size: 8px;
+    }
+
   }

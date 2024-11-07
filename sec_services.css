@@ -148,3 +148,45 @@ gap: 23px;
    margin-top: 3px;
  }
  }
+ @media(max-width:460px){
+  .services_mainContainer {
+    height: 150px;
+  }
+ 
+  .services_heading {
+    font-size: 80%;
+  }
+  .services_Para {
+    font-size: 40%;
+  }
+  
+ .services_container{
+gap: 15px;
+ }
+ .webDesign {
+
+    height: 70px;
+    font-size: 30%;
+ }
+ .graphicDesign{
+   height: 70px;
+   font-size: 30%;
+
+ }
+ .branding{
+   height: 70px;
+   font-size: 30%;
+ }
+ .marketing{
+    height: 70px;
+    font-size: 30%;
+ }
+ .star{
+    height: 30px;
+    width:23px;
+    position:absolute;
+    top: -15px;
+
+ }
+
+ }

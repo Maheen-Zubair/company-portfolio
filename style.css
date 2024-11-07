@@ -209,3 +209,48 @@ header{
    width: 60px;
   }
     }
+    @media(max-width:460px){
+  
+      
+      .one{
+        gap: 4px;
+      }
+     
+         .phone{ 
+           width: 100%;
+        }
+        .phone1{
+          font-size: 7px;        
+        }
+        .phone2{
+        font-size: 7px;
+        }
+        .call-me{
+        font-size: 7px;
+        }
+    
+      
+        .container{
+            gap: 7px;
+            color: #212121;
+            font-size: 5px;
+            font-family: sans-serif;
+            
+        }
+        .expert{
+          height: 150px;
+        }
+        .expertHeading{
+        font-size: 130%;
+        }
+        
+        
+        .expertPara{
+          font-size: 50%;
+        }
+        
+        .readMore{
+         border:none;
+        } 
+
+    }

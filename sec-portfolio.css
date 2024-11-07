@@ -209,14 +209,29 @@
         font-size: 10px;  
         margin-bottom: 10px;
         }
- 
 
     .portfolio-subContainer{
       height: 200px;
       width: 80%;
   
     }
-  
-  
-  
+  }
+
+  @media(max-width:460px){
+    .portfolio_mainContainer {
+      height: 230px;
+      
+    }
+   
+    .portfolio_heading {
+      font-size: 90%;
+    }
+    .portfolio_Para {
+      font-size: 40%;
+      color: #938f8f;
+    }
+    
+    .header3{
+      height: 14px;
+    }
   }

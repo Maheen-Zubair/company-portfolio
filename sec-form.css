@@ -8,102 +8,155 @@
 }
 
 .form-head {
-  margin-top:5px;
+  margin-top: 5px;
   font-size: 25px;
   color: white;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: 300;
 }
-.form-container{
+
+.form-container {
   margin-top: 10px;
-display: flex;
-gap: 5px;
-justify-content: center;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
 }
-.name{
-  width: 100px;
-  height: 20px;
-  font-weight: 200;
-}
-.email{
-  width: 100px;
-  height: 20px;
-  font-weight: 200;
-}
-.phone{
+
+.name {
   width: 100px;
   height: 20px;
   font-weight: 200;
 }
 
-  ::placeholder {
-    color: #888;         
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    font-size: 14px;       /* Font size */
-    opacity: 0.6;         
-  }
-  
-  input:hover::placeholder {
-    color: #555;
-  }
-  
-  input:focus::placeholder {
-    color: #aaa;
-  }
-  .submit{
+.email {
+  width: 100px;
+  height: 20px;
+  font-weight: 200;
+}
+
+.phone {
+  width: 100px;
+  height: 20px;
+  font-weight: 200;
+}
+
+::placeholder {
+  color: #888;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 14px;
+  /* Font size */
+  opacity: 0.6;
+}
+
+input:hover::placeholder {
+  color: #555;
+}
+
+input:focus::placeholder {
+  color: #aaa;
+}
+
+.submit {
   padding-left: 10px;
   padding-right: 10px;
 
-    font-size: 12px;
-   border:none;
-   border-bottom: 3px solid   #c19015;
-   font-weight: 550;
-    background-color: #febd19;
-  }
-  .submit:hover{
-    background-color: #d29a0c;
-    border-bottom: 3px solid   #a37a12;
+  font-size: 12px;
+  border: none;
+  border-bottom: 3px solid #c19015;
+  font-weight: 550;
+  background-color: #febd19;
+}
 
-  }
-  .form-para {
-    padding-left: 40px;
-    padding-right: 40px;
-    margin-top: 10px;
-    font-size: 60%;
-    color: white;
-    margin-bottom: 15px;
-  }
-@media(min-width:623px){
+.submit:hover {
+  background-color: #d29a0c;
+  border-bottom: 3px solid #a37a12;
+
+}
+
+.form-para {
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 10px;
+  font-size: 60%;
+  color: white;
+  margin-bottom: 15px;
+}
+
+@media(min-width:623px) {
   .form-mainContainer {
     height: 150px;
   }
-  
+
   .form-head {
-    margin-top:20px;
+    margin-top: 20px;
     font-size: 35px;
   }
-  .form-container{
+
+  .form-container {
     margin-top: 10px;
-  gap: 7px;
+    gap: 7px;
   }
-  .name{
-    width: 150px;
-    height: 20px;
-  }
-  .email{
-    width: 150px;
-    height: 20px;
-  }
-  .phone{
+
+  .name {
     width: 150px;
     height: 20px;
   }
 
-    .form-para {
- 
-      margin-top: 12px;
-      font-size: 70%;
+  .email {
+    width: 150px;
+    height: 20px;
+  }
 
-    }
-  
+  .phone {
+    width: 150px;
+    height: 20px;
+  }
 
+  .form-para {
+
+    margin-top: 12px;
+    font-size: 70%;
+
+  }
+}
+
+@media(max-width:460px) {
+  .form-mainContainer {
+    height: 110px;
+  }
+
+  .form-head {
+    font-size: 22px;
+  }
+
+  .form-container {
+    gap: 4px;
+  }
+
+  .name {
+    width: 73px;
+    height: 18px;
+  }
+
+  .email {
+    width: 73px;
+    height: 18px;
+  }
+
+  .phone {
+    width: 73px;
+    height: 18px;
+  }
+
+  ::placeholder {
+    font-size: smaller;
+  }
+
+  .submit {
+    font-size: 10px;
+  }
+
+  .form-para {
+    font-size: 50%;
+  }
 }

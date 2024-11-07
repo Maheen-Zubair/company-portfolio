@@ -260,3 +260,92 @@
     }
    
   }
+
+  @media(max-width:460px){
+    .advantages {
+      height: 150px;
+    
+    }
+   
+    .advantageHead {
+      font-size: 80%;
+    }
+    .advantagePara {
+      font-size: 40%;
+    }
+    
+    .advantages-container {
+      gap: 20px;
+    }
+
+    .bulb-img {
+   
+      height: 40px;
+      width: 40px;
+  
+  
+    }
+    
+    .bulb-head {
+      font-size: 7px;
+  
+    
+    }
+    .bulb-para { 
+      font-size: 20%;
+    }
+    
+    .clock-img {
+      height: 40px;
+      width: 40px;
+    }
+    
+    .clock-head {
+      font-size: 7px;
+
+    }
+    .clock-para {
+      font-size: 20%;
+    }
+    
+   
+    .thumb-img {
+      height: 40px;
+      width: 40px;
+     }
+    
+    .thumb-head {
+         font-size: 7px;
+    }
+    .thumb-para {
+      font-size: 20%;
+    }
+ 
+    .client-img {
+      height: 40px;
+      width: 40px;
+    }
+    
+    .client-head {
+      font-size: 7px;
+
+    
+    }
+    .client-para {
+      font-size: 20%;
+    }
+    
+  
+    .support-img {
+      height: 40px;
+      width: 40px;
+    }
+    
+    .support-head {
+      font-size: 7px;
+
+    }
+    .support-para {
+      font-size: 20%;
+    }
+  }

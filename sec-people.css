@@ -164,5 +164,29 @@
     color: rgb(65, 57, 57);
 
   }
+}
+@media(max-width:460px){
+  .people-mainContainer {
+    height:160px; 
+  }
+  
+  .people-head {
+    font-size: 80%;
+  }
+  
+  .people-para {
+    font-size: 40%;
+  }
+  
+  .people-subContainer{
+    height: 110px;
+  }
+  .content h2 {
+    font-size: 7px;
+  }
+  
+  .content p {
+    font-size: 7px;
+  }
   
 }

@@ -66,3 +66,21 @@ font-weight: 600
             font-size: 10px;
            }
     }
+    @media(max-width:460px){
+        .bd_image{
+            height:160px ;
+        }
+        .about_heading{
+        font-size: 14px;        
+        }
+        .about_para{
+            font-size: 6px;
+            gap:3px
+        }
+        .about_button{
+            font-size: 7px;
+         }
+        
+
+        
+    }

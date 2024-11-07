@@ -1,202 +1,273 @@
-
 .process-mainContainer {
-    height: 170px;
-    background-color: #ffffff;
-    text-align: center;
-    padding-top: 5px;
-    font-family: sans-serif;
-    font-weight: 700;
-  }
- 
-  .process-heading {
-    font-size: 100%;
-  }
-  .process-para {
-    padding-left: 40px;
-    padding-right: 40px;
-    font-size: 60%;
-    color: #636060;
-    margin-bottom: 25px;
-  }
-
-
-  /* process container */
-
-  .process-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    
-    
-     }
-   
-     .process-container-head{
-        font-size: 5px;
-     }
-     .process-subContainer{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        gap: 2px;
-        font-size: 4px;    }
-
-     .request-container-img{
-      z-index: 20;
-      background-image: url(process.-sec-imgs/process-request.jpeg);
-      background-size: cover;
-        height: 50px;
-        width: 50px;
-        border-radius: 50%;
-        border: 2px solid gray;
-        position: relative;
-
-     }
-       .consultant-container-img{
-         z-index: 20;
-         background-image: url(process.-sec-imgs/process-consultant.jpeg);
-         background-size: cover;
-        height: 50px;
-        width: 50px;
-        border: 2px solid gray;
-
-        border-radius: 50%;
-        position: relative;
-
-     }
-     .working-container-img{
-      z-index: 20;
-      background-image: url(process.-sec-imgs/process-work.jpeg);
-      background-size: cover;
-      height: 50px;
-      width: 50px;
-      border: 2px solid gray;
-      border-radius: 50%;
-      position: relative;
-
-     }
-     .planning-container-img{
-      z-index: 20;
-      background-image: url(process.-sec-imgs/process-planning.jpeg);
-      background-size: cover;
-      height: 50px;
-      width: 50px;
-      border: 2px solid gray;
-      border-radius: 50%;
-      position: relative;
-
-     }
-     .delma-container-img{
-      z-index: 20;
-      background-image: url(process.-sec-imgs/process-delma.jpeg);
-      background-size: cover;
-      height: 50px;
-      width: 50px;
-      border: 2px solid gray;
-      border-radius: 50%;
-      position: relative;
-
-     }
-     .correcting-container-img{
-      z-index: 20;
-      background-image: url(process.-sec-imgs/process-correcting.jpeg);
-      background-size: cover;
-      height: 50px;
-      width: 50px;
-      border: 2px solid gray;
-      border-radius: 50%;
-      position: relative;
-     }
-   
-
-    .line {
-        height: 1px;
-        width: 80vw;
-        background-color: gray;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-        text-align: center;
-        position: absolute;
-    }
- .process-circle{
-    height: 15px;
-    width:15px;
-    position:absolute;
-    top: -6px;
-    left:15px ;
-    border-radius: 50%;
-    background: #febd19;
-    font-size: small;
- }
- @media(min-width:623px){
-  
-.process-mainContainer {
-  height: 220px;
+  height: 170px;
+  background-color: #ffffff;
+  text-align: center;
+  padding-top: 5px;
+  font-family: sans-serif;
+  font-weight: 700;
 }
 
 .process-heading {
-  margin-top: 12px;
-  font-size: 20px;
+  font-size: 100%;
 }
+
 .process-para {
-    font-size: 70%;
-  margin-bottom: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 60%;
+  color: #636060;
+  margin-bottom: 25px;
 }
 
-   .process-container-head{
-      font-size: 8px;
-   }
-   .process-subContainer{
-    
-      gap: 6px;
-      font-size: 8px;    }
 
-   .request-container-img{
-   
-      height: 70px;
-      width: 70px;
+/* process container */
+
+.process-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 
 
-   }
-     .consultant-container-img{
-      height: 70px;
-      width: 70px;
-   }
-   .working-container-img{
-    height: 70px;
-      width: 70px;
+}
 
-   }
-   .planning-container-img{
+.process-container-head {
+  font-size: 5px;
+}
+
+.process-subContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 2px;
+  font-size: 4px;
+}
+
+.request-container-img {
+  z-index: 20;
+  background-image: url(process.-sec-imgs/process-request.jpeg);
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 2px solid gray;
+  position: relative;
+
+}
+
+.consultant-container-img {
+  z-index: 20;
+  background-image: url(process.-sec-imgs/process-consultant.jpeg);
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+  border: 2px solid gray;
+
+  border-radius: 50%;
+  position: relative;
+
+}
+
+.working-container-img {
+  z-index: 20;
+  background-image: url(process.-sec-imgs/process-work.jpeg);
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+  border: 2px solid gray;
+  border-radius: 50%;
+  position: relative;
+
+}
+
+.planning-container-img {
+  z-index: 20;
+  background-image: url(process.-sec-imgs/process-planning.jpeg);
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+  border: 2px solid gray;
+  border-radius: 50%;
+  position: relative;
+
+}
+
+.delma-container-img {
+  z-index: 20;
+  background-image: url(process.-sec-imgs/process-delma.jpeg);
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+  border: 2px solid gray;
+  border-radius: 50%;
+  position: relative;
+
+}
+
+.correcting-container-img {
+  z-index: 20;
+  background-image: url(process.-sec-imgs/process-correcting.jpeg);
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+  border: 2px solid gray;
+  border-radius: 50%;
+  position: relative;
+}
+
+
+.line {
+  height: 1px;
+  width: 80vw;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  position: absolute;
+}
+
+.process-circle {
+  height: 15px;
+  width: 15px;
+  position: absolute;
+  top: -6px;
+  left: 15px;
+  border-radius: 50%;
+  background: #febd19;
+  font-size: small;
+}
+
+@media(min-width:623px) {
+
+  .process-mainContainer {
+    height: 220px;
+  }
+
+  .process-heading {
+    margin-top: 12px;
+    font-size: 20px;
+  }
+
+  .process-para {
+    font-size: 70%;
+    margin-bottom: 30px;
+  }
+
+  .process-container-head {
+    font-size: 8px;
+  }
+
+  .process-subContainer {
+
+    gap: 6px;
+    font-size: 8px;
+  }
+
+  .request-container-img {
+
     height: 70px;
     width: 70px;
 
-   }
-   .delma-container-img{
-    height: 70px;
-      width: 70px;
 
-   }
-   .correcting-container-img{
+  }
+
+  .consultant-container-img {
     height: 70px;
-      width: 70px;
-   }
- 
+    width: 70px;
+  }
+
+  .working-container-img {
+    height: 70px;
+    width: 70px;
+
+  }
+
+  .planning-container-img {
+    height: 70px;
+    width: 70px;
+
+  }
+
+  .delma-container-img {
+    height: 70px;
+    width: 70px;
+
+  }
+
+  .correcting-container-img {
+    height: 70px;
+    width: 70px;
+  }
+
 
   .line {
-      height: 2px;
-      margin-bottom: 35px;
+    height: 2px;
+    margin-bottom: 35px;
   }
-.process-circle{
-  height: 18px;
-  width:18px;
-  top: -8px;
-  left:25px ;
+
+  .process-circle {
+    height: 18px;
+    width: 18px;
+    top: -8px;
+    left: 25px;
+
+  }
+}
+  @media(max-width:460px) {
+    .process-mainContainer {
+      height: 160px;
+    }
+
+    .process-heading {
+      font-size: 80%;
+    }
+
+    .process-para {
+      font-size: 50%;
+    }
+  
+.request-container-img {
+
+  height: 47px;
+  width: 47px;
+
 
 }
 
- }
+.consultant-container-img {
+  height: 47px;
+  width: 47px;
+
+}
+
+.working-container-img {
+  height: 47px;
+  width: 47px;
+
+}
+
+.planning-container-img {
+  height: 47px;
+  width: 47px;
+
+
+}
+
+.delma-container-img {
+  height: 47px;
+  width: 47px;
+
+}
+
+.correcting-container-img {
+  height: 47px;
+  width: 47px;
+
+}
+  }
+
+
